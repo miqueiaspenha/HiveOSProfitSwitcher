@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "ae6c32f6-7d56-445a-93ca-fc473befc0bc": {
+      "ProjectGuid": "ae6c32f6-7d56-445a-93ca-fc473befc0bc",
+      "DisplayName": "HiveProfitSwitcher",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
