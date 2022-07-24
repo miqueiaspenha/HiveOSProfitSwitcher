@@ -5,6 +5,8 @@ Please note that there is a 5% buffer on current coin vs new profitability. This
 
 Please also note that this exe doesn't loop. It's intended to be run under a cron job or task scheduler. You will need to configure this to run reoccuring based on your own environment requirements. I'll be putting out some videos soon on how to make this run on one of your existing hive os rigs.
 
+Make sure you configure overclock defaults for each algorithm to optimize your cards and prevent crashes. This Profit switcher doesn't apply overclocks itself, but overclocks will get reapplied by hive os if you configure algo default ones when this tool applies the flightsheet changes.
+
 If you would like to support me, please feel free to check out my youtube channel at: https://www.youtube.com/channel/UCrpTQG3FEs0p4IPMKSMT9Dw
 
 - Config Options Needed
