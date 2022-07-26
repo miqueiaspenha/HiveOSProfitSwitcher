@@ -52,7 +52,7 @@ Starting with v.0.0.4, the app will auto-update itself. It will check for update
 		<add key="HiveFarmId" value="xxxxx"/>
 		<add key="CoinDifferenceThreshold" value="0.05"/> <!-- Represented as a decimal. i.e., 5% would be 0.05 -->
 		<add key="AutoUpdate" value="true" />
-		<add key="UpdateUrl" value="https://github.com/TheRetroMike/HiveOSProfitSwitcher/releases/latest/download/HiveProfitSwitcher-v.0.0.3.zip" />
+		<add key="UpdateUrl" value="https://github.com/TheRetroMike/HiveOSProfitSwitcher/releases/latest/download/HiveProfitSwitcher.zip" />
 		<add key="ReleaseApi" value="https://api.github.com/repos/TheRetroMike/HiveOSProfitSwitcher/releases/latest" />
 	</appSettings>
 	<profitSwitching>
