@@ -1,10 +1,14 @@
-﻿using Newtonsoft.Json;
+﻿using Ionic.Zip;
+using Newtonsoft.Json;
 using RestSharp;
 using System;
 using System.Collections.Generic;
 using System.Configuration;
+using System.Diagnostics;
 using System.Dynamic;
+using System.IO;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -14,9 +18,12 @@ namespace HiveProfitSwitcher
     {
         static string hiveApiKey = "";
         static string farmId = "";
+        static double coinThreshold = Convert.ToDouble(0.05);
 
         static void Main(string[] args)
         {
+            new AppUpdater().HandleUpdate();
+
             if (String.IsNullOrEmpty(ConfigurationManager.AppSettings["HiveOSApiKey"]) || String.IsNullOrEmpty(ConfigurationManager.AppSettings["HiveFarmId"]))
             {
                 Console.WriteLine("Hive API Key and Hive Farm ID are required. Please check the config file.");
@@ -26,6 +33,12 @@ namespace HiveProfitSwitcher
                 hiveApiKey = ConfigurationManager.AppSettings["HiveOSApiKey"];
                 farmId = ConfigurationManager.AppSettings["HiveFarmId"];
                 List<String> configuredRigs = new List<string>();
+
+                if (ConfigurationManager.AppSettings["CoinDifferenceThreshold"] != null)
+                {
+                    coinThreshold = Convert.ToDouble(ConfigurationManager.AppSettings["CoinDifferenceThreshold"]);
+                }
+
                 var config = (ProfitSwitchingConfig)ConfigurationManager.GetSection("profitSwitching");
                 if (config != null && config.Workers != null && config.Workers.Count > 0)
                 {
@@ -112,13 +125,13 @@ namespace HiveProfitSwitcher
             {
                 if (configuredCoins.ContainsKey(coin?.First?.tag?.Value))
                 {
-                    coins.Add(coin?.First?.tag?.Value, Convert.ToDouble(coin?.First?.btc_revenue.Value));
+                    coins.Add(coin?.First?.tag?.Value, Convert.ToDouble(coin?.First?.profitability.Value));
                 }
             }
             var currentCoinPrice = coins.Where(x => x.Key == currentCoin).FirstOrDefault().Value;
             var newCoinBestPrice = coins.Values.Max();
             var newTopCoinTicker = coins.Aggregate((x, y) => x.Value > y.Value ? x : y).Key;
-            if (newCoinBestPrice > (currentCoinPrice * .05))
+            if (newCoinBestPrice > (currentCoinPrice * coinThreshold))
             {
                 string newFlightSheeId = currentFlighSheetId;
                 newFlightSheeId = GetFlightsheetID(configuredCoins[newTopCoinTicker]);

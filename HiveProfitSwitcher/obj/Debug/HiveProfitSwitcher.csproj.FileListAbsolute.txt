@@ -32,6 +32,7 @@ C:\Users\micha\source\repos\HiveProfitSwitcher\HiveProfitSwitcher\obj\Debug\Hive
 C:\Users\micha\source\repos\HiveOSProfitSwitcher\HiveProfitSwitcher\bin\Debug\HiveProfitSwitcher.exe.config
 C:\Users\micha\source\repos\HiveOSProfitSwitcher\HiveProfitSwitcher\bin\Debug\HiveProfitSwitcher.exe
 C:\Users\micha\source\repos\HiveOSProfitSwitcher\HiveProfitSwitcher\bin\Debug\HiveProfitSwitcher.pdb
+C:\Users\micha\source\repos\HiveOSProfitSwitcher\HiveProfitSwitcher\bin\Debug\DotNetZip.dll
 C:\Users\micha\source\repos\HiveOSProfitSwitcher\HiveProfitSwitcher\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\micha\source\repos\HiveOSProfitSwitcher\HiveProfitSwitcher\bin\Debug\Newtonsoft.Json.dll
 C:\Users\micha\source\repos\HiveOSProfitSwitcher\HiveProfitSwitcher\bin\Debug\RestSharp.dll
@@ -43,6 +44,8 @@ C:\Users\micha\source\repos\HiveOSProfitSwitcher\HiveProfitSwitcher\bin\Debug\Sy
 C:\Users\micha\source\repos\HiveOSProfitSwitcher\HiveProfitSwitcher\bin\Debug\System.Text.Json.dll
 C:\Users\micha\source\repos\HiveOSProfitSwitcher\HiveProfitSwitcher\bin\Debug\System.Threading.Tasks.Extensions.dll
 C:\Users\micha\source\repos\HiveOSProfitSwitcher\HiveProfitSwitcher\bin\Debug\System.ValueTuple.dll
+C:\Users\micha\source\repos\HiveOSProfitSwitcher\HiveProfitSwitcher\bin\Debug\DotNetZip.pdb
+C:\Users\micha\source\repos\HiveOSProfitSwitcher\HiveProfitSwitcher\bin\Debug\DotNetZip.xml
 C:\Users\micha\source\repos\HiveOSProfitSwitcher\HiveProfitSwitcher\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
 C:\Users\micha\source\repos\HiveOSProfitSwitcher\HiveProfitSwitcher\bin\Debug\Newtonsoft.Json.xml
 C:\Users\micha\source\repos\HiveOSProfitSwitcher\HiveProfitSwitcher\bin\Debug\RestSharp.xml
@@ -60,3 +63,4 @@ C:\Users\micha\source\repos\HiveOSProfitSwitcher\HiveProfitSwitcher\obj\Debug\Hi
 C:\Users\micha\source\repos\HiveOSProfitSwitcher\HiveProfitSwitcher\obj\Debug\HiveProfitSwitcher.exe
 C:\Users\micha\source\repos\HiveOSProfitSwitcher\HiveProfitSwitcher\obj\Debug\HiveProfitSwitcher.pdb
 C:\Users\micha\source\repos\HiveOSProfitSwitcher\HiveProfitSwitcher\obj\Debug\HiveProfitSwitcher.csproj.AssemblyReference.cache
+C:\Users\micha\source\repos\HiveOSProfitSwitcher\HiveProfitSwitcher\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
