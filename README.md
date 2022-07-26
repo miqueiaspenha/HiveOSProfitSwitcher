@@ -9,6 +9,8 @@ Make sure you configure overclock defaults for each algorithm to optimize your c
 
 If you would like to support me, please feel free to check out my youtube channel at: https://www.youtube.com/channel/UCrpTQG3FEs0p4IPMKSMT9Dw
 
+How to install on a HiveOS Rig: https://youtu.be/xSDP-9wjAJ0
+
 - Config Options Needed
   - Hive OS API Key (You can get this by logging into your account, clicking your username at the top right, selecting the Sessions tab, and then creating a new API token)
   - Hive OS Farm ID (You can get this from your farm URL)
