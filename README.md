@@ -1,4 +1,4 @@
-# HiveOSProfitSwitcher
+# Hive OS Mining Profit Switcher
 This is a .NET Executable that can connect to your Hive OS account and profit switch your mining rigs based on WhatToMine calculations and using a configuration that you setup. 
 
 Please note that there is a 5% buffer on current coin vs new profitability. This limits constant flipping of coins when they are within a couple of cents of each other. If the new top coin is 4% better in profitability, it will remain on the current coin until that new top one exceeds 5% of the one currently being mined.
