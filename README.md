@@ -17,6 +17,18 @@ How to install on a HiveOS Rig: https://youtu.be/xSDP-9wjAJ0
   - WhatToMine JSON (Go to WhatToMine, fill in your hashrates, hit calculate, then click JSON at the top, and copy the URL from the address bar
   - Worker Config section. This is where you specify the worker name, link to WhatToMine JSON, and what coins you want it to profit switch between.
   
+### Prerequisites
+The following commands must be executed if you are running this from a Hive OS rig. This is only needed on the system where the app is installed (not every rig you're using it to manage). These commands just update mono to the latest version to address all security and SSL patches
+```
+sudo apt install gnupg ca-certificates
+sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 3FA7E0328081BFF6A14DA29AA6A19B38D3D831EF
+echo "deb https://download.mono-project.com/repo/ubuntu stable-bionic main" | sudo tee /etc/apt/sources.list.d/mono-official-stable.list
+sudo apt update
+```
+
+### Updater
+Starting with v.0.0.4, the app will auto-update itself. It will check for updates everytime it runs and automatically apply the update. Your config file will be kept intact. Please periodically check this page for the latest releases to see if there are any config file additions for enhanced functionality that you may want to take advantage of.
+
 #### Example Config
 ```
 <?xml version="1.0" encoding="utf-8"?>
@@ -25,7 +37,7 @@ How to install on a HiveOS Rig: https://youtu.be/xSDP-9wjAJ0
 		<section name="profitSwitching" type="HiveProfitSwitcher.ProfitSwitchingConfig, HiveProfitSwitcher" />
 	</configSections>
     <startup> 
-        <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.7.2" />
+        <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.6.2" />
     </startup>
   <runtime>
     <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
@@ -38,6 +50,10 @@ How to install on a HiveOS Rig: https://youtu.be/xSDP-9wjAJ0
 	<appSettings>
 		<add key="HiveOSApiKey" value="xxxxx"/>
 		<add key="HiveFarmId" value="xxxxx"/>
+		<add key="CoinDifferenceThreshold" value="0.05"/> <!-- Represented as a decimal. i.e., 5% would be 0.05 -->
+		<add key="AutoUpdate" value="true" />
+		<add key="UpdateUrl" value="https://github.com/TheRetroMike/HiveOSProfitSwitcher/releases/latest/download/HiveProfitSwitcher-v.0.0.3.zip" />
+		<add key="ReleaseApi" value="https://api.github.com/repos/TheRetroMike/HiveOSProfitSwitcher/releases/latest" />
 	</appSettings>
 	<profitSwitching>
 		<workers>
