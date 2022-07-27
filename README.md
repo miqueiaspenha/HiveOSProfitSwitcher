@@ -70,6 +70,20 @@ Starting with v.0.0.4, the app will auto-update itself. It will check for update
 					<add coinTicker="RYO" flightSheetName="2GB_RIG_RYO" />
 				</enabledCoins>
 			</add>
+			<add name="3GB_RIG" whatToMineEndpoint="https://whattomine.com/coins.json?factor%5Beth_hr%5D=0.0&amp;factor%5Beth_p%5D=0.0&amp;e4g=true&amp;factor%5Be4g_hr%5D=168.0&amp;factor%5Be4g_p%5D=720.0&amp;zh=true&amp;factor%5Bzh_hr%5D=175.0&amp;factor%5Bzh_p%5D=680.0&amp;cnh=true&amp;factor%5Bcnh_hr%5D=4675.0&amp;factor%5Bcnh_p%5D=615.0&amp;cng=true&amp;factor%5Bcng_hr%5D=3250.0&amp;factor%5Bcng_p%5D=600.0&amp;cnf=true&amp;factor%5Bcnf_hr%5D=3530.0&amp;factor%5Bcnf_p%5D=650.0&amp;factor%5Bcx_hr%5D=0.0&amp;factor%5Bcx_p%5D=0.0&amp;eqa=true&amp;factor%5Beqa_hr%5D=250.0&amp;factor%5Beqa_p%5D=550.0&amp;cc=true&amp;factor%5Bcc_hr%5D=0.0&amp;factor%5Bcc_p%5D=0.0&amp;cr29=true&amp;factor%5Bcr29_hr%5D=0.0&amp;factor%5Bcr29_p%5D=0.0&amp;ct31=true&amp;factor%5Bct31_hr%5D=0.0&amp;factor%5Bct31_p%5D=0.0&amp;ct32=true&amp;factor%5Bct32_hr%5D=0.0&amp;factor%5Bct32_p%5D=0.0&amp;eqb=true&amp;factor%5Beqb_hr%5D=0.0&amp;factor%5Beqb_p%5D=0.0&amp;rmx=true&amp;factor%5Brmx_hr%5D=0.0&amp;factor%5Brmx_p%5D=0.0&amp;ns=true&amp;factor%5Bns_hr%5D=0.0&amp;factor%5Bns_p%5D=0.0&amp;al=true&amp;factor%5Bal_hr%5D=387.0&amp;factor%5Bal_p%5D=720.0&amp;factor%5Bops_hr%5D=0.0&amp;factor%5Bops_p%5D=0.0&amp;eqz=true&amp;factor%5Beqz_hr%5D=72.0&amp;factor%5Beqz_p%5D=665.0&amp;zlh=true&amp;factor%5Bzlh_hr%5D=100.0&amp;factor%5Bzlh_p%5D=665.0&amp;kpw=true&amp;factor%5Bkpw_hr%5D=44.0&amp;factor%5Bkpw_p%5D=720.0&amp;factor%5Bppw_hr%5D=0.0&amp;factor%5Bppw_p%5D=0.0&amp;factor%5Bx25x_hr%5D=0.0&amp;factor%5Bx25x_p%5D=0.0&amp;factor%5Bfpw_hr%5D=0.0&amp;factor%5Bfpw_p%5D=0.0&amp;vh=true&amp;factor%5Bvh_hr%5D=2.68&amp;factor%5Bvh_p%5D=720.0&amp;factor%5Bcost%5D=0.1&amp;factor%5Bcost_currency%5D=USD&amp;sort=Profitability24&amp;volume=0&amp;revenue=24h&amp;factor%5Bexchanges%5D%5B%5D=&amp;factor%5Bexchanges%5D%5B%5D=binance&amp;factor%5Bexchanges%5D%5B%5D=bitfinex&amp;factor%5Bexchanges%5D%5B%5D=bitforex&amp;factor%5Bexchanges%5D%5B%5D=bittrex&amp;factor%5Bexchanges%5D%5B%5D=coinex&amp;factor%5Bexchanges%5D%5B%5D=dove&amp;factor%5Bexchanges%5D%5B%5D=exmo&amp;factor%5Bexchanges%5D%5B%5D=gate&amp;factor%5Bexchanges%5D%5B%5D=graviex&amp;factor%5Bexchanges%5D%5B%5D=hitbtc&amp;factor%5Bexchanges%5D%5B%5D=hotbit&amp;factor%5Bexchanges%5D%5B%5D=ogre&amp;factor%5Bexchanges%5D%5B%5D=poloniex&amp;factor%5Bexchanges%5D%5B%5D=stex&amp;dataset=Main">
+                                <enabledCoins>
+                                        <add coinTicker="VTC" flightSheetName="3GB_RIG_VTC" />
+                                        <add coinTicker="UBQ" flightSheetName="3GB_RIG_UBQ" />
+                                        <add coinTicker="NEOX" flightSheetName="3GB_RIG_NEOX" />
+                                        <add coinTicker="MSR" flightSheetName="3GB_RIG_MSR" />
+                                        <add coinTicker="BTG" flightSheetName="3GB_RIG_BTG" />
+                                        <add coinTicker="XHV" flightSheetName="3GB_RIG_XHV" />
+                                        <add coinTicker="AION" flightSheetName="3GB_RIG_AION" />
+                                        <add coinTicker="RYO" flightSheetName="3GB_RIG_RYO" />
+					<add coinTicker="FLUX" flightSheetName="3GB_RIG_FLUX" />
+					<add coinTicker="YEC" flightSheetName="3GB_RIG_YEC" />
+                                </enabledCoins>
+                        </add>
 		</workers>
 	</profitSwitching>
 </configuration>
