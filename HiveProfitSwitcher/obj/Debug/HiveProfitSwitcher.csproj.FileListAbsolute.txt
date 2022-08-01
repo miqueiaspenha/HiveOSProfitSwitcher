@@ -62,5 +62,4 @@ C:\Users\micha\source\repos\HiveOSProfitSwitcher\HiveProfitSwitcher\obj\Debug\Hi
 C:\Users\micha\source\repos\HiveOSProfitSwitcher\HiveProfitSwitcher\obj\Debug\HiveProfitSwitcher.csproj.CopyComplete
 C:\Users\micha\source\repos\HiveOSProfitSwitcher\HiveProfitSwitcher\obj\Debug\HiveProfitSwitcher.exe
 C:\Users\micha\source\repos\HiveOSProfitSwitcher\HiveProfitSwitcher\obj\Debug\HiveProfitSwitcher.pdb
-C:\Users\micha\source\repos\HiveOSProfitSwitcher\HiveProfitSwitcher\obj\Debug\HiveProfitSwitcher.csproj.AssemblyReference.cache
 C:\Users\micha\source\repos\HiveOSProfitSwitcher\HiveProfitSwitcher\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
