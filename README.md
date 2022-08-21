@@ -14,8 +14,11 @@ How to install on a HiveOS Rig: https://youtu.be/xSDP-9wjAJ0
 - Config Options Needed
   - Hive OS API Key (You can get this by logging into your account, clicking your username at the top right, selecting the Sessions tab, and then creating a new API token)
   - Hive OS Farm ID (You can get this from your farm URL)
-  - WhatToMine JSON (Go to WhatToMine, fill in your hashrates, hit calculate, then click JSON at the top, and copy the URL from the address bar
+  - Coin Difference Threshold - This is the profit percentage difference that is needed in order for the coin to switch.
+  - WhatToMine JSON (Go to WhatToMine, fill in your hashrates, hit calculate, then click JSON at the top, and copy the URL from the address bar.
   - Worker Config section. This is where you specify the worker name, link to WhatToMine JSON, and what coins you want it to profit switch between.
+  
+  Note: Set Average for Revenue to Current Values in WhatToMine before copying the URL if you want real-time profitability that auto-adjusts for real-time difficulty changes.
   
 ### Prerequisites
 The following commands must be executed if you are running this from a Hive OS rig. This is only needed on the system where the app is installed (not every rig you're using it to manage). These commands just update mono to the latest version to address all security and SSL patches
